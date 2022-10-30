@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top">
+      <h1 class="h1">CapacityBay Survey Form</h1>
+      <i>Thank you for taking time to help us improve the platform </i>
+    </div>
+    <br />
+    <div class="formbck">
+      <main>
+        <form class="theform" action="#" method="post">
+          <label>Name</label>
+          <input
+            class="input"
+            type="text"
+            id="itsname"
+            placeholder="Enter your Name"
+          />
+          <br /><br />
+          <label>Email</label>
+          <input
+            class="input"
+            type="email"
+            id="theemail"
+            placeholder="Enter your Email"
+          />
+          <br /><br />
+          <label>Age<span> (optional)</span></label>
+          <input class="input" type="number" id="age" placeholder="Age" />
+          <br /><br />
+
+          <label for="role">Which option describes your current role?</label>
+          <select name="" id="role">
+            <option value="select">Select current role</option>
+            <option value="select">Student</option>
+            <option value="select">Full Time Job</option>
+            <option value="select">Full Time Learner</option>
+            <option value="select">Prefer not to say</option>
+            <option value="Rather not say">Other</option>
+          </select>
+
+          <br /><br />
+          <label>Would you recommend CapacityBay to a friend?</label>
+          <li>
+            <input type="radio" name="Eng" id="lang" />
+            <label for="lang">Definitely</label>
+          </li>
+
+          <li>
+            <input type="radio" name="Eng" id="lang" />
+            <label for="lang">Maybe</label>
+          </li>
+
+          <li>
+            <input type="radio" name="Eng" id="lang" />
+            <label for="lang">Not sure</label>
+          </li>
+          <br />
+
+          <label>What is your favorite feature of CapacityBay?</label>
+          <select name="" id="gender">
+            <option value="Male">Challenges</option>
+            <option value="Female">Projects</option>
+            <option value="Female">Community</option>
+            <option value="Female">Open Source</option>
+            <option value="Rather not say">Rather not say</option>
+          </select>
+          <br /><br />
+
+          <label>
+            What would you like to see improved?
+            <span>(Check all that apply)</span>
+          </label>
+          <li>
+            <input type="checkbox" id="beans" name="food1" />
+            <label for="Beans">Front-end Projects</label>
+          </li>
+
+          <li>
+            <input type="checkbox" id="rice" name="food2" />
+            <label for="rice">Back-end Projects</label>
+          </li>
+
+          <li>
+            <input type="checkbox" id="yam" name="food3" />
+            <label for="yam">Data Visualization</label>
+          </li>
+
+          <li>
+            <input type="checkbox" id="garri" name="food4" />
+            <label for="garri">Challenges</label>
+          </li>
+
+          <li>
+            <input type="checkbox" id="garri" name="food4" />
+            <label for="garri">Open Source Community</label>
+          </li>
+
+          <li>
+            <input type="checkbox" id="garri" name="food4" />
+            <label for="garri">Getter help rooms</label>
+          </li>
+
+          <li>
+            <input type="checkbox" id="garri" name="food4" />
+            <label for="garri">Videos</label>
+          </li>
+
+          <li>
+            <input type="checkbox" id="garri" name="food4" />
+            <label for="garri">City Meetups</label>
+          </li>
+
+          <li>
+            <input type="checkbox" id="garri" name="food4" />
+            <label for="garri">Wiki</label>
+          </li>
+
+          <li>
+            <input type="checkbox" id="garri" name="food4" />
+            <label for="garri">Forum</label>
+          </li>
+
+          <li>
+            <input type="checkbox" id="garri" name="food4" />
+            <label for="garri">Additional Courses</label>
+          </li>
+          <br />
+
+          <label>  Any comments or suggestions?</label>
+          <textarea
+            name=""
+            id="txt"
+            cols="40"
+            rows="10"
+            placeholder="Enter your comment here..."
+          ></textarea>
+          <br /><br />
+          <button type="submit">Submit</button>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
